@@ -65,7 +65,10 @@ public class Receipt {
         builder.append("Cash: " + cash + "SEK\n");
         builder.append("Change :" + change + "SEK\n");
         builder.append("------------------ End receipt ---------------------\n");
-                           
+
+        return builder.toString();
+
+        
     }
     
 }
